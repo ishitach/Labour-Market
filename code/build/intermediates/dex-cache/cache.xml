@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="cb86970df0f0f25f766d320b279c7858c1ca0003">
+        <dex dex="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.2.1_60e8398ae14e832546face15ed26c0f2917aec76.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-measurement-8.4.0_2f8147be32a94ecb9aa79a07a00e9047d93ba1ee.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tirth Gajjar\.gradle\caches\modules-2\files-2.1\com.google.android\support-v4\r7\24d0f6da34c3a2bfcf736ab42d51c91ac821ee22\support-v4-r7.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="24d0f6da34c3a2bfcf736ab42d51c91ac821ee22">
+        <dex dex="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\pre-dexed\debug\support-v4-r7_88b591d6162888dfda9a18af83e0415b276deaf8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_07e3f17ecad90705733590c35a742dadae50361e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\exploded-aar\eu.davidea\flexible-adapter\5.0.0-b4\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ab8cc13f8763e21e8457fb7a351a8439049d7cbf">
+        <dex dex="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\pre-dexed\debug\eu.davidea-flexible-adapter-5.0.0-b4_ce584cdb5a37c4f9bf9a44aeacaeb44c7cbdd7d7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.1_1b7fd6b0078c927b9fbaa4e3cacb3643ca257d5e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1_69bff1cfe77b381b78ddd544d56552bfcc9c93a0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.2.1_e635b22242ded40e0fb9c263fafccccf97a95a5a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.1_c80d681e3ffc7c88d97bb34be6e63a5ea06583fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-8.4.0_44990477cc9fb7cb085993f39ea635c54591caf5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_17f90c2e8bfdce4f1fd936ba36b04f0b4faf8c94.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tirth Gajjar\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\pre-dexed\debug\library-1.0.19_84e9c4394ec8b37be492cc427efd7172fa917be2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.2.1_defbbf405f6c6460b22f26e65a3372c52a3ec399.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\exploded-aar\com.bignerdranch.android\recyclerview-multiselect\0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8a90606ee73178bb9b1a336dc36ae3ec25ad33ea">
+        <dex dex="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\pre-dexed\debug\com.bignerdranch.android-recyclerview-multiselect-0.2_49a616eef41f0f12af3f91e8613b0d107809a02f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.1_a6bfdbefdcece5b1a7dddbc49127fd4087e8b78e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.1_7e904c59dd0c58cc8da9358a8b7816ee2a47c0a7.jar" />
+    </item>
+    <item
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="C:\Users\Tirth Gajjar\Downloads\Compressed\code103\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.1_a56e9dd4c90bf7079c075061d78cff57c1577e98.jar" />
+    </item>
+
+</items>

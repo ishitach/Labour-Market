@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tirthgajjar.code103">
+
+    <permission android:name="com.example.tirthgajjar.code103.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.example.tirthgajjar.code103.permission.C2D_MESSAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".ContractorSide.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ContractorSide.Swipe_tabs.SwipeTab"
+            android:exported="true"
+            android:label="Labour Market">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContractorSide.Activities.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".ContractorSide.Activities.SignUpLabourer"
+            android:exported="true"
+            android:label="@string/title_activity_sign_up_labourer"
+            android:parentActivityName=".ContractorSide.Activities.LoginActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ContractorSide.Activities.LoginActivity" />
+        </activity>
+        <activity
+            android:name=".ContractorSide.Activities.laborers_types"
+            android:label="@string/title_activity_laborers_types"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ContractorSide.laborers_lists.A_laborers_list"
+            android:label="@string/title_activity_a_laborers_list"
+            android:parentActivityName=".ContractorSide.Activities.laborers_types"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ContractorSide.Activities.laborers_types" />
+        </activity>
+        <activity
+            android:name=".ContractorSide.laborers_lists.C_laborers_list"
+            android:label="@string/title_activity_c_laborers_list"
+            android:parentActivityName=".ContractorSide.Activities.laborers_types"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ContractorSide.Activities.laborers_types" />
+        </activity>
+        <activity
+            android:name=".ContractorSide.laborers_lists.O_laborers_list"
+            android:label="@string/title_activity_o_laborers_activity"
+            android:parentActivityName=".ContractorSide.Activities.laborers_types"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ContractorSide.Activities.laborers_types" />
+        </activity>
+        <activity
+            android:name=".LaborerSide.SwipeTabLaborer"
+            android:exported="true"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LaborerSide.BusinessActivity"
+            android:label="@string/title_activity_business"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ContractorSide.PickDates"
+            android:label="@string/title_activity_pick_dates"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ContractorSide.ContractorSignUp"
+            android:label="@string/title_activity_contractor_sign_up"
+            android:parentActivityName=".ContractorSide.Activities.LoginActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.tirthgajjar.code103.ContractorSide.Activities.LoginActivity" />
+        </activity>
+    </application>
+
+</manifest>

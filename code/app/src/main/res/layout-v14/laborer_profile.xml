@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/BusyStatusCard_L"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/BusyStatusTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Availability Status : "
+                    android:layout_margin="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:id="@+id/switch1"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/NameCard_L"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent">
+
+            <LinearLayout
+                android:id="@+id/NameCardLinearLayout_L"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/NameCardLable_L"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name : "
+                    android:layout_margin="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Name_L"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+
+                    android:textSize="20sp"
+                    android:textStyle="normal"/>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/PhoneCard_L"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:elevation="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent">
+
+            <LinearLayout
+                android:id="@+id/PhoneCardLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/PhoneCardLable_L"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone Number :"
+                    android:layout_margin="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Phone_L"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textSize="20sp"
+                    android:textStyle="normal"/>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+
+        android:id="@+id/RatingCard_L"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:elevation="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:id="@+id/RatingCardLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/RatingCardLable_L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rating :"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="8dp"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:isIndicator="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                style="@style/Widget.AppCompat.RatingBar.Small"/>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/SkillCard_L"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent">
+
+            <LinearLayout
+                android:id="@+id/SkillCardLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/SkillCardLable_L"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Skill :"
+                    android:layout_margin="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Skill_L"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textSize="20sp"
+                    android:textStyle="normal"/>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/AgeCardLable_L"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Age :"
+                    android:layout_margin="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Age_L"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textSize="20sp"
+                    android:textStyle="normal"/>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/GenderCardLable_L"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gender :"
+                    android:layout_margin="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Gender_L"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textSize="20sp"
+                    android:textStyle="normal"/>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/VillageCard_L"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:elevation="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent">
+
+            <LinearLayout
+                android:id="@+id/VillageCardLinearLayout_L"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/VillageCardLable_L"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Village :"
+                    android:layout_margin="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Village_L"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textSize="20sp"
+                    android:textStyle="normal"/>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>
